@@ -39,6 +39,9 @@ Public Class Dealer
             'Limit 5
 
             mSQL = "SELECT * FROM DealerList WHERE IsActive = '" & vbTrue & "'"
+        ElseIf IsActive = ActiveStatus.Inactive Then
+            mSQL = "SELECT * FROM DealerList WHERE IsActive = '" & vbFalse & "'"
+
         Else
             mSQL = "SELECT * FROM DealerList"
         End If
