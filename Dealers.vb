@@ -4,19 +4,19 @@ Imports Globals.cGlobals
 Imports System.Windows.Forms
 
 Public Class Dealer
-    Public Shared DealerID As Long
-    Public Shared DealerName As String
-    Public Shared StreetAddress As String
-    Public Shared MondayHours As String
-    Public Shared TuesdayHours As String
-    Public Shared WednesdayHours As String
-    Public Shared ThursdayHours As String
-    Public Shared FridayHours As String
-    Public Shared SaturdayHours As String
-    Public Shared SundayHours As String
-    Public Shared PhoneNumber As String
-    Public Shared MapLocation As String
-    Public Shared ActiveRecord As Boolean
+    'Public Shared DealerID As Long
+    'Public Shared DealerName As String
+    'Public Shared StreetAddress As String
+    'Public Shared MondayHours As String
+    'Public Shared TuesdayHours As String
+    'Public Shared WednesdayHours As String
+    'Public Shared ThursdayHours As String
+    'Public Shared FridayHours As String
+    'Public Shared SaturdayHours As String
+    'Public Shared SundayHours As String
+    'Public Shared PhoneNumber As String
+    'Public Shared MapLocation As String
+    'Public Shared ActiveRecord As Boolean
 
     'Public Shared Function GetDealerData(intDealerID As Integer) As DataTable
     '    Return GetDealerData
