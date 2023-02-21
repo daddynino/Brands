@@ -1,4 +1,4 @@
-﻿Imports cglobals = Globals.cGlobals
+﻿'Imports cglobals = Globals.cGlobals
 Imports System.Data.SQLite
 Imports Globals.cGlobals
 Imports System.Windows.Forms
@@ -235,7 +235,7 @@ Public Class Dealer
         'Debug.Print(mSQL & " - " & IsActive)
 
         'Dim mSQL As String = "SELECT * FROM tblBanks"
-        Dim connectionString As String = cglobals.gConnection.gConnectionString
+        Dim connectionString As String = Globals.cGlobals.gConnection.gConnectionString
         'Debug.Print(connectionString)
         Try
             Using conn As New SQLiteConnection(connectionString)
@@ -278,7 +278,7 @@ Public Class Dealer
         msgInput = MsgBox("Are you sure you want to deactivate " & strDealerName & "?" & vbCrLf & vbCrLf & "Deactivation can be reversed in 5-7 business days", CType(vbYesNo + vbQuestion, MsgBoxStyle), "Confirm deactivation")
         If msgInput = vbYes Then
             'deactivate
-            Dim gconnectionString As String = cglobals.gConnection.gConnectionString
+            Dim gconnectionString As String = Globals.cGlobals.gConnection.gConnectionString
             Dim ConnectionString As String
             'Dim 
             connectionString = "UPDATE DealerList SET IsActive = '0' WHERE DealerID = " & intDealerID
