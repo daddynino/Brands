@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Dealers")>
-<Assembly: AssemblyDescription("Access to vehicle dealer information in the London area")>
+<Assembly: AssemblyTitle("Brands")>
+<Assembly: AssemblyDescription("Access to vehicle Brand information in the London area")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Dealers")>
+<Assembly: AssemblyProduct("Brands")>
 <Assembly: AssemblyCopyright("Copyright ©  2023")>
 <Assembly: AssemblyTrademark("")>
 
