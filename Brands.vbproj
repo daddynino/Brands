@@ -117,10 +117,6 @@
       <Project>{9c20637d-0ccf-4d88-897c-3ccd6a42b7b8}</Project>
       <Name>Globals</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Vehicles\Vehicles.vbproj">
-      <Project>{f8fb6efd-5399-4a99-b50a-e27baa97093a}</Project>
-      <Name>Vehicles</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\tdb2023\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\tdb2023\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
